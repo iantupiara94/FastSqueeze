@@ -133,21 +133,21 @@ if(screen.width>1024){
 	gsap.from(".facebook",{
 		scrollTrigger:".facebook",
 		x:-100,
-		y: 50,
+		y: 10,
 		scale:3,
 		duration:1,
 		delay: 0.7
 	});
 	gsap.from(".instagram",{
 		scrollTrigger:".instagram",
-		y: 50,
+		y: 10,
 		scale:3,
 		duration:1,
 		delay: 1.7
 	});
 	gsap.from(".whatsapp",{
 		scrollTrigger:".whatsapp",
-		y: 50,
+		y: 10,
 		x:100,
 		scale:3,
 		duration:1,
